@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultar Vaga de Estacionamento</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <section>
+        <div class="box-logo">
+            <img class="logo" src="./assets/logo-westvillage.svg" alt="">
+        </div>
+    </section>
+
+    <section class="box-informativo">
+        <div>
+            <hr>
+            <h3><span style="color: red;">ATENÇÃO:</span> PROIBIDO ESTACIONAR FORA DA SUA VAGA DESIGNADA</h3>
+            <p>Caro Condômino,</p>
+            <p>Por favor, esteja ciente de que é estritamente proibido estacionar em vagas que não estejam designadas especificamente para o seu uso. Estacionar em outras vagas causa inconvenientes para os outros moradores e pode resultar em multas e medidas disciplinares.</p>
+            <p>Por favor, coopere para manter a ordem e a fluidez no estacionamento do condomínio, respeitando as regras e os espaços designados.</p>
+            <p>Agradecemos sua compreensão e colaboração.</p>
+            <h4>Administração do Condomínio</h4>
+            <hr>
+            <p style="margin-top: 40px; color: #ffffff; background-color: #1f2771; padding: 15px; border-radius: 8px; text-align: center;">Para ajudar a facilitar a localização da sua vaga de estacionamento designada, disponibilizamos uma consulta logo abaixo. <span>&#128071;</span></p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1>Consultar Vaga de Estacionamento</h1>
+            <label for="blocoInput">Digite o Bloco (A ou B):</label>
+            <input type="text" id="blocoInput" placeholder="Bloco (exemplo: A, B.)">
+
+            <label for="aptoInput">Digite o número do apartamento:</label>
+            <input type="text" id="aptoInput" placeholder="Número do Apartamento (exemplo: 1, 5, 601, 1002...)">
+
+            <button onclick="consultarVaga()">Consultar</button>
+
+            <p id="resultado" class="resultado"></p>
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
